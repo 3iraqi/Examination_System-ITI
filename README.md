@@ -1,8 +1,5 @@
-Sure! Here's the **complete `README.md` content** in full for you to copy and paste directly:
 
----
 
-```markdown
 # Graduation Project: [Your Project Title Here]
 
 Welcome to the repository for my graduation project, which demonstrates the complete lifecycle of a data-driven application — from database design, ETL processes, and data warehouse architecture, to reporting and dashboarding, and finally the application layer.
@@ -195,9 +192,8 @@ Graduation Project - \[Your University Name]
 
 ---
 
-```
 
----
 
-Let me know if you'd like a downloadable `.md` file or if you want me to customize it with your actual project title, your name, university, links, etc.
-```
+
+
+
