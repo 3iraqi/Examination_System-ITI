@@ -15,8 +15,7 @@ Welcome to the repository for my graduation project, which demonstrates the comp
   - [🏢 Data Warehouse](#-data-warehouse)
   - [📊 Reports (SSRS)](#-reports-ssrs)
   - [📈 Power BI Dashboards](#-power-bi-dashboards)
-  - [20 Power BI Dashboards](#20-power-bi-dashboards)
-  - [](#)
+    - [20 Power BI Dashboards](#20-power-bi-dashboards)
   - [💻 Application (Flet + Node.js)](#-application-flet--nodejs)
   - [🎬 Demo](#-demo)
   - [🚀 How to Run](#-how-to-run)
@@ -100,7 +99,7 @@ A **star schema data warehouse** is designed for analytical processing, with:
 
 > 📌 *PBIX files are provided in the [`PBI`](./PBI) folder.*
 
-## 20 Power BI Dashboards
+### 20 Power BI Dashboards
 
 <details>
 
@@ -187,7 +186,6 @@ A **star schema data warehouse** is designed for analytical processing, with:
 ![20](./PBI/Last_20_Dashboard/20Dashboard/20Dashboard_21.jpg)
 
 </details>
----
 
 ## 💻 Application (Flet + Node.js)
 
