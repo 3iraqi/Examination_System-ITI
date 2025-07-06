@@ -1,6 +1,4 @@
-
-
-# Graduation Project: [Your Project Title Here]
+# ITI Graduation Project: Examination System
 
 Welcome to the repository for my graduation project, which demonstrates the complete lifecycle of a data-driven application — from database design, ETL processes, and data warehouse architecture, to reporting and dashboarding, and finally the application layer.
 
@@ -8,19 +6,20 @@ Welcome to the repository for my graduation project, which demonstrates the comp
 
 ## 📌 Table of Contents
 
-- [Project Overview](#project-overview)
-- [Database](#database)
-- [Database Diagram](#database-diagram)
-- [ETL Process (SSIS)](#etl-process-ssis)
-- [Data Warehouse](#data-warehouse)
-- [Reports (SSRS)](#reports-ssrs)
-- [Power BI Dashboards](#power-bi-dashboards)
-- [Application (Flet + Node.js)](#application-flet--nodejs)
-- [Demo](#demo)
-- [How to Run](#how-to-run)
-- [Screenshots](#screenshots)
-- [Technologies](#technologies)
-- [Author](#author)
+- [ITI Graduation Project: Examination System](#iti-graduation-project-examination-system)
+  - [📌 Table of Contents](#-table-of-contents)
+  - [🚀 Project Overview](#-project-overview)
+  - [🗄️ Database](#️-database)
+  - [🗺️ Database Diagram](#️-database-diagram)
+  - [⚙️ ETL Process (SSIS)](#️-etl-process-ssis)
+  - [🏢 Data Warehouse](#-data-warehouse)
+  - [📊 Reports (SSRS)](#-reports-ssrs)
+  - [📈 Power BI Dashboards](#-power-bi-dashboards)
+  - [💻 Application (Flet + Node.js)](#-application-flet--nodejs)
+  - [🎬 Demo](#-demo)
+  - [🚀 How to Run](#-how-to-run)
+  - [🛠️ Technologies](#️-technologies)
+  - [👨‍💻 Author Team](#-author-team)
 
 ---
 
@@ -51,14 +50,9 @@ It consists of well-structured tables supporting the application and reporting n
 
 The database design follows best practices in relational modeling.  
 
-> 📌 *See the database diagram in the [`/diagram`](./diagram) folder.*
+> 📌 *[See the database diagram](./DatabaseDiagram.png) .*
 
-```
 
-📂 diagram
-└── database\_diagram.png
-
-```
 
 ---
 
@@ -68,7 +62,7 @@ The database design follows best practices in relational modeling.
 - Supports **incremental loading** using staging tables.
 - Ensures data quality with validation and error handling.
 
-> 📌 *SSIS packages are available in the [`/etl`](./etl) folder.*
+> 📌 *SSIS packages are available in the [`ETL`](./BI_Tools/learningManagementETL/) folder.*
 
 ---
 
@@ -78,7 +72,7 @@ A **star schema data warehouse** is designed for analytical processing, with:
 - **Fact tables** (e.g. `FactExam`, `FactCertificate`, `FactStudent_Course`, `FactFeedback`)
 - **Dimension tables** (e.g. `DimStudent`, `DimCourse`, `DimInstructor`, `DimTrack`, `DimDate`)
 
-> 📌 *SQL scripts and schema files are provided in the [`/data_warehouse`](./data_warehouse) folder.*
+> 📌 *schema is provided in the [`Schema`](./DWH_Last_Schema.png) .*
 
 ---
 
@@ -101,7 +95,7 @@ A **star schema data warehouse** is designed for analytical processing, with:
   - Certificate issuance metrics
   - Course completion rates
 
-> 📌 *PBIX files are provided in the [`/powerbi`](./powerbi) folder.*
+> 📌 *PBIX files are provided in the [`PBI`](./PBI) folder.*
 
 ---
 
@@ -111,6 +105,7 @@ A **star schema data warehouse** is designed for analytical processing, with:
 - **Node.js** backend providing RESTful APIs, authentication, and business logic.
 
 👉 **Features:**
+
 - User management (students, instructors, admins)
 - Exam creation and submission
 - Feedback collection
@@ -121,24 +116,17 @@ A **star schema data warehouse** is designed for analytical processing, with:
 
 ## 🎬 Demo
 
-A full demo video of the system is available in the repo:
+A full demo video of the system is available in the repo
 
-```
-
-📂 demo
-└── project\_demo.mp4
-
-````
-Or view it [here](link-to-your-video-if-hosted-online).
-
----
+[Demo Video](./Application/demo.mp4).
 
 ## 🚀 How to Run
 
 1️⃣ Clone the repository  
+
 ```bash
-git clone https://github.com/yourusername/yourproject.git
-cd yourproject
+git clone https://github.com/3iraqi/Examination_System-ITI.git
+cd Examination_System-ITI
 ````
 
 2️⃣ Set up SQL Server and restore the provided database backups.
@@ -158,17 +146,11 @@ node server.js
 6️⃣ Run the Flet frontend:
 
 ```bash
-cd app/frontend
+cd Application
 flet run main.py
 ```
 
 ---
-
-## 🖼️ Screenshots
-
-| Flet App                            | Power BI Dashboard                               | SSRS Report                            |
-| ----------------------------------- | ------------------------------------------------ | -------------------------------------- |
-| ![Flet](./screenshots/flet_app.png) | ![Power BI](./screenshots/powerbi_dashboard.png) | ![SSRS](./screenshots/ssrs_report.png) |
 
 ---
 
@@ -184,16 +166,12 @@ flet run main.py
 
 ---
 
-## 👨‍💻 Author
+## 👨‍💻 Author Team
 
-**\[Your Full Name]**
-Graduation Project - \[Your University Name]
-\[Your email] | \[Your LinkedIn/GitHub profile link]
+**Mohamed Ahmed Eleraqi**
+**Ahmed Nasr Mohamed**
+**Amr Elsaid Elsherbiny**
+**Mohamed Reda**
+**Salema Hassan**
 
 ---
-
-
-
-
-
-
