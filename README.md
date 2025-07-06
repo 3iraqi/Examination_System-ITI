@@ -73,7 +73,7 @@ The database design follows best practices in relational modeling.
 A **star schema data warehouse** is designed for analytical processing, with:
 
 - **Fact tables** (e.g. `FactExam`, `FactCertificate`, `FactStudent_Course`, `FactFeedback`)
-- **Dimension tables** (e.g. `DimStudent`, `DimCourse`, `DimInstructor`, `DimTrack`, `DimDate`)
+- **Dimension tables** (e.g. `DimStudent`, `DimCourse`, `DimInstructor`, `DimTrack`)
 
 ![DWH](./DWH_Last_Schema.png)
 
