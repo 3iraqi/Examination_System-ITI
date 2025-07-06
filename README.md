@@ -15,6 +15,7 @@ Welcome to the repository for my graduation project, which demonstrates the comp
   - [🏢 Data Warehouse](#-data-warehouse)
   - [📊 Reports (SSRS)](#-reports-ssrs)
   - [📈 Power BI Dashboards](#-power-bi-dashboards)
+  - [](#)
   - [💻 Application (Flet + Node.js)](#-application-flet--nodejs)
   - [🎬 Demo](#-demo)
   - [🚀 How to Run](#-how-to-run)
@@ -50,9 +51,7 @@ It consists of well-structured tables supporting the application and reporting n
 
 The database design follows best practices in relational modeling.  
 
-> 📌 *[See the database diagram](./DatabaseDiagram.png) .*
-
-
+![Database Diagram](./DatabaseDiagram.png)
 
 ---
 
@@ -64,15 +63,18 @@ The database design follows best practices in relational modeling.
 
 > 📌 *SSIS packages are available in the [`ETL`](./BI_Tools/learningManagementETL/) folder.*
 
+![ETL Process](./BI_Tools/SSIS_Screenshots/Main.png)
+
 ---
 
 ## 🏢 Data Warehouse
 
 A **star schema data warehouse** is designed for analytical processing, with:
+
 - **Fact tables** (e.g. `FactExam`, `FactCertificate`, `FactStudent_Course`, `FactFeedback`)
 - **Dimension tables** (e.g. `DimStudent`, `DimCourse`, `DimInstructor`, `DimTrack`, `DimDate`)
 
-> 📌 *schema is provided in the [`Schema`](./DWH_Last_Schema.png) .*
+![DWH](./DWH_Last_Schema.png)
 
 ---
 
@@ -97,6 +99,90 @@ A **star schema data warehouse** is designed for analytical processing, with:
 
 > 📌 *PBIX files are provided in the [`PBI`](./PBI) folder.*
 
+<details>
+  <summary>20 Dashboard</summary>
+
+- **Index**
+
+![0](./PBI/Last_20_Dashboard/20Dashboard/20Dashboard_1.jpg)
+
+<!-- 1. Student OverView Dashboard
+2. GPA by Track and Major
+3. Course Enrollment Dashboard
+4. Instructor Insights
+5. Branch Performance Dashboard
+6. Feedback Dashboard
+7. Certification Insights
+8. Intake Analysis
+9. Exam Performance Dashboard
+10. Course Completion
+11. Student Certificate Summary
+12. GPA Progression over Intake
+13. Student Demographics
+14. Certification Insights
+15. Student & course
+16. Exam
+17. 1nstructor Load Dashboard
+18. Track Popularity Dashboard
+19. Attendance Trends Dashboard
+20. Summary KPI Dashboard
+
+ -->
+1. **Student OverView Dashboard**
+
+![1](./PBI/Last_20_Dashboard/20Dashboard/20Dashboard_2.jpg)
+
+2. **GPA by Track and Major**
+![2](./PBI/Last_20_Dashboard/20Dashboard/20Dashboard_3.jpg)
+3. **Course Enrollment Dashboard**
+![3](./PBI/Last_20_Dashboard/20Dashboard/20Dashboard_4.jpg)
+4. **Instructor Insights**
+![4](./PBI/Last_20_Dashboard/20Dashboard/20Dashboard_5.jpg)
+5. **Branch Performance Dashboard**
+![5](./PBI/Last_20_Dashboard/20Dashboard/20Dashboard_6.jpg)
+6. **Feedback Dashboard**
+![6](./PBI/Last_20_Dashboard/20Dashboard/20Dashboard_7.jpg)
+7. **Certification Insights**
+![7](./PBI/Last_20_Dashboard/20Dashboard/20Dashboard_8.jpg)
+8. **Intake Analysis**
+![8](./PBI/Last_20_Dashboard/20Dashboard/20Dashboard_9.jpg)
+9. **Exam Performance Dashboard**
+![9](./PBI/Last_20_Dashboard/20Dashboard/20Dashboard_10.jpg)
+10. **Course Completion**
+![10](./PBI/Last_20_Dashboard/20Dashboard/20Dashboard_11.jpg)
+
+11. **Student Certificate Summary**
+![11](./PBI/Last_20_Dashboard/20Dashboard/20Dashboard_12.jpg)
+
+12. **GPA Progression over Intake**
+![12](./PBI/Last_20_Dashboard/20Dashboard/20Dashboard_13.jpg)
+
+13. **Student Demographics**
+![13](./PBI/Last_20_Dashboard/20Dashboard/20Dashboard_14.jpg)
+
+14. **Certification Insights**
+![14](./PBI/Last_20_Dashboard/20Dashboard/20Dashboard_15.jpg)
+
+15. **Student & Course**
+![15](./PBI/Last_20_Dashboard/20Dashboard/20Dashboard_16.jpg)
+
+16. **Exam**
+![16](./PBI/Last_20_Dashboard/20Dashboard/20Dashboard_17.jpg)
+
+17. **Instructor Load Dashboard**
+![17](./PBI/Last_20_Dashboard/20Dashboard/20Dashboard_18.jpg)
+
+18. **Track Popularity Dashboard**
+![18](./PBI/Last_20_Dashboard/20Dashboard/20Dashboard_19.jpg)
+
+19. **Attendance Trends Dashboard**
+![19](./PBI/Last_20_Dashboard/20Dashboard/20Dashboard_20.jpg)
+
+20. **Summary KPI Dashboard**
+
+![20](./PBI/Last_20_Dashboard/20Dashboard/20Dashboard_21.jpg)
+
+</details>
 ---
 
 ## 💻 Application (Flet + Node.js)
@@ -127,7 +213,7 @@ A full demo video of the system is available in the repo
 ```bash
 git clone https://github.com/3iraqi/Examination_System-ITI.git
 cd Examination_System-ITI
-````
+```
 
 2️⃣ Set up SQL Server and restore the provided database backups.
 
@@ -168,10 +254,10 @@ flet run main.py
 
 ## 👨‍💻 Author Team
 
-**Mohamed Ahmed Eleraqi**
-**Ahmed Nasr Mohamed**
-**Amr Elsaid Elsherbiny**
-**Mohamed Reda**
-**Salema Hassan**
+[**Mohamed Ahmed Eleraqi**](mailto:mohamed.8.eleraqi@gmail.com)
+[**Amr Elsaid Elsherbiny**]()
+[**Ahmed Nasr Mohamed**]()
+[**Mohamed Reda**]()
+[**Salema Hassan**]()
 
 ---
