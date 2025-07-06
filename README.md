@@ -208,7 +208,7 @@ A **star schema data warehouse** is designed for analytical processing, with:
 
 A full demo video of the system is available in the repo
 
-[Demo Video](./Application/demo.mp4).
+[🎞🖥Demo Video](https://youtu.be/klFBlAdWYC8)
 
 ## 🚀 How to Run
 
