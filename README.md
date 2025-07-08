@@ -256,10 +256,14 @@ flet run main.py
 
 ## 👨‍💻 Author Team
 
-[**Mohamed Ahmed Eleraqi**](mailto:mohamed.8.eleraqi@gmail.com)
-[**Amr Elsaid Elsherbiny**]()
-[**Ahmed Nasr Mohamed**]()
-[**Mohamed Reda**]()
-[**Salema Hassan**]()
+- [**Mohamed Ahmed Eleraqi**](mailto:mohamed.8.eleraqi@gmail.com)
+
+- [**Amr Elsaid Elsherbiny**]()
+
+- [**Ahmed Nasr Mohamed**]()
+
+- [**Mohamed Reda**]()
+
+- [**Salema Hassan**]()
 
 ---
